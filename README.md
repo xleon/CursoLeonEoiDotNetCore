@@ -1,6 +1,5 @@
-# FightGame
-Aplicación .NET Core de ejemplo para el curso de aplicaciones 
-web de la EOI.
+# Curso León EOI 2017
+Introducción al lenguaje C# y .NET Core por Diego Ponce de León para la EOI
 
 ## Herramientas utilizadas
 
@@ -19,12 +18,13 @@ web de la EOI.
 
 ### .NET Core
 
+- Introducción a .NET Framework
 - Introducción a .NET Core
+- Diferencias entre .NET Framework y .NET Core
 - Instalación entorno de trabajo para .NET Core (SDK)
-- Crear proyectos .NET Core desde línea de comandos (CLI)
-- Instalación, configuración y uso de Visual Studio Code para editar y depurar un proyecto C#
-- Instalación, configuración y uso de Visual Studio Community para editar y depurar proyectos C#
-- Crear proyectos de librería .NET Standard
+- Crear proyectos de consola, librería NET Standard y Web API con .NET Core desde línea de comandos (CLI) y desde Visual Studio
+- Instalación, configuración y uso de Visual Studio Code para editar proyectos C#
+- Instalación, configuración y uso de Visual Studio Community para editar proyectos C#
 - Crear dependencias entre proyectos dentro de una misma solución
 - Añadir paquetes nuget a un proyecto
 - Utilización de librerías de terceros a través de nuget
@@ -62,15 +62,30 @@ web de la EOI.
 - Async, await, Task
 - Lanzamiento y manejo de excepciones
 
-### REST
+### REST y Web API
 
 - Introducción a REST
-- Métodos básicos REST
+- Métodos básicos REST (get, post, put, delete)
 - Probar una API REST con Postman
 - Consumir una API REST desde C# con `HttpClient`
-- Crear una API REST con Asp.NET Core
+- Crear una API REST con Asp.NET Core y Visual Studio
+- Usar respuestas de Web API: BadRequest, NoContent, Ok, ServerError, CreatedAtRoute, etc
+- Crear un modelo de datos relacional
+- Usar inyección de dependencias para el uso de servicios en controladores Web API
+- Introducción a ORM (Object Relatioinal Mapper)
+- Introducción al ORM Entity Framework
+- Usar base de datos en memoria
+- Consultas a la base de datos de forma síncrona con LINQ
+- Consultas a la base de datos de forma asíncrona con LINQ
 
-## Pantallazos del juego
+
+## Fight Game
+
+Mini juego de peleas por turnos desarrollado durante las clases. Se trata de una aplicación de consola que descarga lista de personajes desde la API REST de StarWars. 
+Cada vez que se teclea la función "Luchar", se eligen dos contrincantes aleatoriamente. El daño que ocasionan o reciben también es aleatorio. Todos van perdiedo poder y vidas. 
+Cuando se agotan sus vidas quedan fuera de juego. Así sucesivamente hasta que queda un único superviviente o ganador.
+
+La lógica del juego es muy simplista y esta aplicación ha servido básicamente para tocar varios puntos importantes del lenguaje C#.
 
 ![Game screenshot 1](https://raw.githubusercontent.com/xleon/FightGame/master/Screenshot_1.png)
 ![Game screenshot](https://raw.githubusercontent.com/xleon/FightGame/master/image.png)
