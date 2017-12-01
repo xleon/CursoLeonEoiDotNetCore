@@ -1,4 +1,4 @@
-# Curso León EOI 2017
+# Curso León EOI 2017 C# y DotNetCore
 Introducción al lenguaje C# y .NET Core por Diego Ponce de León para la EOI
 
 ## Herramientas utilizadas
@@ -79,13 +79,18 @@ Introducción al lenguaje C# y .NET Core por Diego Ponce de León para la EOI
 - Consultas a la base de datos de forma asíncrona con LINQ
 
 
+# Ejercicios
+
 ## Fight Game
 
 Mini juego de peleas por turnos desarrollado durante las clases. Se trata de una aplicación de consola que descarga lista de personajes desde la API REST de StarWars. 
 Cada vez que se teclea la función "Luchar", se eligen dos contrincantes aleatoriamente. El daño que ocasionan o reciben también es aleatorio. Todos van perdiedo poder y vidas. 
 Cuando se agotan sus vidas quedan fuera de juego. Así sucesivamente hasta que queda un único superviviente o ganador.
+Tiene otra función "Estatus" con la cuál podemos ver una tabla de texto de los jugadores y el detalle de cada uno.
 
-La lógica del juego es muy simplista y esta aplicación ha servido básicamente para tocar varios puntos importantes del lenguaje C#.
+La lógica del juego es muy simplista y esta aplicación ha servido básicamente para tocar varios puntos importantes del lenguaje C#, al mismo tiempo que hemos aprendido a manejar entrada y salida de datos en aplicaciones de consola.
 
 ![Game screenshot 1](https://raw.githubusercontent.com/xleon/FightGame/master/Screenshot_1.png)
 ![Game screenshot](https://raw.githubusercontent.com/xleon/FightGame/master/image.png)
+
+## TO DO web API (Lista de tareas)
