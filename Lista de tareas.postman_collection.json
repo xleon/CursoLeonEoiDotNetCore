@@ -1,0 +1,305 @@
+{
+	"info": {
+		"name": "Lista de tareas",
+		"_postman_id": "bab792e4-adf6-7307-a128-b30061b06524",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listas",
+			"description": "",
+			"item": [
+				{
+					"name": "Todas las listas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:50264/api/todolist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50264",
+							"path": [
+								"api",
+								"todolist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Detalle de lista",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:50264/api/todolist/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50264",
+							"path": [
+								"api",
+								"todolist",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Borrar lista",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:50264/api/todolist/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50264",
+							"path": [
+								"api",
+								"todolist",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear lista",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Compras\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:50264/api/todolist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50264",
+							"path": [
+								"api",
+								"todolist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar lista",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": 2,\n\t\"name\": \"Lenguajes de programación\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:50264/api/todolist/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50264",
+							"path": [
+								"api",
+								"todolist",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tareas",
+			"description": "",
+			"item": [
+				{
+					"name": "Todas las tareas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:50264/api/todo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50264",
+							"path": [
+								"api",
+								"todo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Detalle de tarea",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:50264/api/todo/bylist/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50264",
+							"path": [
+								"api",
+								"todo",
+								"bylist",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Borrar tarea",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:50264/api/todo/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50264",
+							"path": [
+								"api",
+								"todo",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Detalle de tarea",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:50264/api/todo/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50264",
+							"path": [
+								"api",
+								"todo",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear tarea",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Javascript\",\n\t\"isComplete\": false,\n\t\"todoListId\": 2 \n}"
+						},
+						"url": {
+							"raw": "http://localhost:50264/api/todo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50264",
+							"path": [
+								"api",
+								"todo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar tarea",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": 1,\n\t\"name\": \"Tarea modificada\",\n\t\"isComplete\": true\n}"
+						},
+						"url": {
+							"raw": "http://localhost:50264/api/todo/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50264",
+							"path": [
+								"api",
+								"todo",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

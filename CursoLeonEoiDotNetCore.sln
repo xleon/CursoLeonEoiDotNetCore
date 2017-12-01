@@ -3,9 +3,86 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console1", "Console1\Console1.csproj", "{D2B2C8F6-8365-47F0-B92F-DB507C3B0933}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console2", "Console2\Console2.csproj", "{21F7F1BC-E112-4216-9196-CFF7B912FBC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console3", "Console3\Console3.csproj", "{AA58FDBD-98EE-43F8-A920-F6CAF51D3236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learning Csharp", "Learning Csharp", "{57D81E5B-88ED-499F-8E2D-5B85C17FF302}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fight Game", "Fight Game", "{592EE894-9538-48A3-A94B-A4E427648C50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FightGame", "FightGame\FightGame.csproj", "{48BB98AB-13EE-428D-8AB3-18EEADD950CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FightGame.Model", "FightGame.Model\FightGame.Model.csproj", "{B4AE383A-7247-42BB-8C63-67FC390BF295}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FightGame.Services", "FightGame.Services\FightGame.Services.csproj", "{EC26BEFC-1AB3-4A87-AFC0-C6E10FB7A66E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FightGameApi", "FightGameApi\FightGameApi.csproj", "{67DCCF5A-8111-4F31-978D-49E4FEB46F0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Todo REST API", "Todo REST API", "{D9659447-7467-4375-854B-995648A2F02A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi", "TodoApi\TodoApi.csproj", "{3B882F68-FE21-4C41-A124-3E1CE991A5B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B00ECF3B-8D93-4FD5-ACCA-A048999C4E29}"
+	ProjectSection(SolutionItems) = preProject
+		EOI.postman_collection.json = EOI.postman_collection.json
+		Lista de tareas.postman_collection.json = Lista de tareas.postman_collection.json
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2B2C8F6-8365-47F0-B92F-DB507C3B0933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B2C8F6-8365-47F0-B92F-DB507C3B0933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B2C8F6-8365-47F0-B92F-DB507C3B0933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B2C8F6-8365-47F0-B92F-DB507C3B0933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F7F1BC-E112-4216-9196-CFF7B912FBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F7F1BC-E112-4216-9196-CFF7B912FBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F7F1BC-E112-4216-9196-CFF7B912FBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F7F1BC-E112-4216-9196-CFF7B912FBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA58FDBD-98EE-43F8-A920-F6CAF51D3236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA58FDBD-98EE-43F8-A920-F6CAF51D3236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA58FDBD-98EE-43F8-A920-F6CAF51D3236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA58FDBD-98EE-43F8-A920-F6CAF51D3236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48BB98AB-13EE-428D-8AB3-18EEADD950CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BB98AB-13EE-428D-8AB3-18EEADD950CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BB98AB-13EE-428D-8AB3-18EEADD950CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BB98AB-13EE-428D-8AB3-18EEADD950CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AE383A-7247-42BB-8C63-67FC390BF295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AE383A-7247-42BB-8C63-67FC390BF295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AE383A-7247-42BB-8C63-67FC390BF295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AE383A-7247-42BB-8C63-67FC390BF295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC26BEFC-1AB3-4A87-AFC0-C6E10FB7A66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC26BEFC-1AB3-4A87-AFC0-C6E10FB7A66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC26BEFC-1AB3-4A87-AFC0-C6E10FB7A66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC26BEFC-1AB3-4A87-AFC0-C6E10FB7A66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67DCCF5A-8111-4F31-978D-49E4FEB46F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67DCCF5A-8111-4F31-978D-49E4FEB46F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67DCCF5A-8111-4F31-978D-49E4FEB46F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67DCCF5A-8111-4F31-978D-49E4FEB46F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B882F68-FE21-4C41-A124-3E1CE991A5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B882F68-FE21-4C41-A124-3E1CE991A5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B882F68-FE21-4C41-A124-3E1CE991A5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B882F68-FE21-4C41-A124-3E1CE991A5B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2B2C8F6-8365-47F0-B92F-DB507C3B0933} = {57D81E5B-88ED-499F-8E2D-5B85C17FF302}
+		{21F7F1BC-E112-4216-9196-CFF7B912FBC2} = {57D81E5B-88ED-499F-8E2D-5B85C17FF302}
+		{AA58FDBD-98EE-43F8-A920-F6CAF51D3236} = {57D81E5B-88ED-499F-8E2D-5B85C17FF302}
+		{48BB98AB-13EE-428D-8AB3-18EEADD950CC} = {592EE894-9538-48A3-A94B-A4E427648C50}
+		{B4AE383A-7247-42BB-8C63-67FC390BF295} = {592EE894-9538-48A3-A94B-A4E427648C50}
+		{EC26BEFC-1AB3-4A87-AFC0-C6E10FB7A66E} = {592EE894-9538-48A3-A94B-A4E427648C50}
+		{67DCCF5A-8111-4F31-978D-49E4FEB46F0F} = {592EE894-9538-48A3-A94B-A4E427648C50}
+		{3B882F68-FE21-4C41-A124-3E1CE991A5B8} = {D9659447-7467-4375-854B-995648A2F02A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44C0DE61-F7C5-49D8-85E2-9B78D50847C1}

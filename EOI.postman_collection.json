@@ -1,0 +1,165 @@
+{
+	"info": {
+		"name": "EOI",
+		"_postman_id": "bd01a606-c0d0-f7dd-c7c8-297bc0554656",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Lista de personajes de Start Wars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://swapi.co/api/people/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"people",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "LIsta de repos de git",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://api.github.com/users/xleon/repos",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"users",
+						"xleon",
+						"repos"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Lista de players",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:54407/api/players/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54407",
+					"path": [
+						"api",
+						"players",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar player",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:54407/api/players/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54407",
+					"path": [
+						"api",
+						"players",
+						"100"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Crear jugador",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Pepito chanclas\",\n\t\"gender\": \"male\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:54407/api/players/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54407",
+					"path": [
+						"api",
+						"players",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar jugador",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": 1,\n\t\"name\": \"asssssssssss\",\n\t\"gender\": \"female\",\n\t\"lives\": 111,\n\t\"power\": 222,\n\t\"gems\": 2500\n}"
+				},
+				"url": {
+					"raw": "http://localhost:54407/api/players/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54407",
+					"path": [
+						"api",
+						"players",
+						"1"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
