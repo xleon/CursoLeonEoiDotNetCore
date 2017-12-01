@@ -94,3 +94,8 @@ La lógica del juego es muy simplista y esta aplicación ha servido básicamente pa
 ![Game screenshot](https://raw.githubusercontent.com/xleon/FightGame/master/image.png)
 
 ## TO DO web API (Lista de tareas)
+
+Se trata de una API REST muy simple con dos modelos de datos (lista de tareas y tarea) que están relacionados entre sí. 
+Hemos hecho un recorrido por los métodos REST más relevantes para entender el concepto CRUD (Create Retrieve Update Delete). 
+En dichos métodos se controlan errores y que los parámetros recibidos en la llamada son correctos. También se consulta una base de datos con LINQ 
+y finalmente se devuelven las respuestas correspondientes y típicas de REST, con su código de estado y su cuerpo en formato json.
