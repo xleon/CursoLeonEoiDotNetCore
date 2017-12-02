@@ -94,7 +94,21 @@ Introducción al lenguaje C# y .NET Core por Diego Ponce de León para la EOI
 - [Autenticación / autorización en ASP.NET Core](https://docs.microsoft.com/es-es/aspnet/core/security/authentication/identity?tabs=visual-studio%2Caspnetcore2x)
 
 
-# Ejercicios
+# Ejercicios y código
+
+Todo el código se encuentra en distintos proyectos pero dentro de una misma solución de Visual Studio.
+Para usar el código solo hace falta clonar este repositorio:
+
+    git clone https://github.com/xleon/CursoLeonEoiDotNetCore.git
+
+y luego hacer doble click en `CursoLeonEoiDotNetCore.sln` (con Visual Studio instalado).
+
+Para lanzar proyectos podeís hacerlo de dos maneras:
+
+1. Click derecho en el proyecto > Establecer proyecto por defecto y luego darle al play (botón verde)
+2. Click derech en el proyecto > Depurar > Crear nueva instancia
+
+![Solution debug](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Assets/Solution.png)
 
 ## Fight Game
 
@@ -117,6 +131,7 @@ y finalmente se devuelven las respuestas correspondientes y típicas de REST, con
 
 ![Postman 1](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Assets/Postman1.png)
 ![Postman 2](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Assets/Postman2.png)
+
 
 
 
