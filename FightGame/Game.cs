@@ -66,7 +66,7 @@ namespace FightGame
             }
         }
 
-        private void Menu()
+        private static void Menu()
         {
             Console.WriteLine("\n\nAyuda:\n");
             Console.WriteLine("0. Mostrar ayuda");
@@ -146,7 +146,7 @@ namespace FightGame
             player2.Power -= damage;
 
             ConsoleHelper.Write($"==> {player1.Name} ha zurrado a {player2.Name}", 
-                ConsoleColor.Blue);
+                ConsoleColor.Cyan);
 
             if (player2.Power <= 0)
             {
@@ -203,7 +203,7 @@ namespace FightGame
 
             if (players.Count == 0)
             {
-                Console.WriteLine("\nNo hay jugadores");
+                Console.WriteLine("\nNo hay jugadores. Pulsa 1 para añadir jugador nuevo.");
             }
             else
             {

@@ -90,8 +90,8 @@ Tiene otra función "Estatus" con la cuál podemos ver una tabla de texto de los j
 
 La lógica del juego es muy simplista y esta aplicación ha servido básicamente para tocar varios puntos importantes del lenguaje C#, al mismo tiempo que hemos aprendido a manejar entrada y salida de datos en aplicaciones de consola.
 
-![Game screenshot 1](https://raw.githubusercontent.com/xleon/FightGame/master/Screenshot_1.png)
-![Game screenshot](https://raw.githubusercontent.com/xleon/FightGame/master/image.png)
+![Fight Game 1](https://raw.githubusercontent.com/xleon/FightGame/master/Assets/FightGame1.png)
+![Fight Game 2](https://raw.githubusercontent.com/xleon/FightGame/master/Assets/FightGame2.png)
 
 ## TO DO web API (Lista de tareas)
 
@@ -99,4 +99,11 @@ Se trata de una API REST muy simple, desarrollada en Visual Studio, con dos mode
 Hemos hecho un recorrido por los métodos REST más relevantes para entender el concepto CRUD (Create Retrieve Update Delete). Para ello hemos utilizado un servicio que se utiliza en el controlador mediante inyección de dependencias.
 En dichos métodos se controlan errores y que los parámetros recibidos en la llamada sean correctos. También se consulta una base de datos con LINQ 
 y finalmente se devuelven las respuestas correspondientes y típicas de REST, con su código de estado y su cuerpo en formato json. Toda la API web ha sido probada con Postman.
+
+![Postman 1](https://raw.githubusercontent.com/xleon/FightGame/master/Assets/Postman1.png)
+![Postman 2](https://raw.githubusercontent.com/xleon/FightGame/master/Assets/Postman2.png)
+
+# Enlaces de interés
+
+
 
