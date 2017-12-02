@@ -132,6 +132,9 @@ y finalmente se devuelven las respuestas correspondientes y típicas de REST, con
 ![Postman 1](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Assets/Postman1.png)
 ![Postman 2](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Assets/Postman2.png)
 
+Hay un archivo en el proyecto que se llama [Lista de tareas.postman_collection.json](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Lista%20de%20tareas.postman_collection.json) 
+que podeís importar directamente desde Postman dándole al botón "Import" en la parte superior. Una vez hecho eso, todas las llamadas a la API estarán disponibles para probar.
+
 
 
 
