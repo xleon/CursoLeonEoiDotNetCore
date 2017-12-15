@@ -1,5 +1,8 @@
-# Curso LeÛn EOI 2017 C# y DotNetCore
-IntroducciÛn al lenguaje C# y .NET Core por Diego Ponce de LeÛn para la EOI
+# Curso Le√≥n EOI 2017 C# y DotNetCore
+Introducci√≥n al lenguaje C# y .NET Core por Diego Ponce de Le√≥n para la EOI
+
+![logos](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Assets/logos.png)
+
 
 ## Herramientas utilizadas
 
@@ -7,7 +10,7 @@ IntroducciÛn al lenguaje C# y .NET Core por Diego Ponce de LeÛn para la EOI
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Visual Studio Community edition](https://www.visualstudio.com/vs/community/)
 - [Nuget](https://www.nuget.org/)
-- [Git por lÌnea de comandos](https://git-scm.com/download/win)
+- [Git por l√≠nea de comandos](https://git-scm.com/download/win)
 - [Git desde Visual Studio Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 - [Git desde Visual Studio](https://docs.microsoft.com/es-es/vsts/git/gitquickstart?tabs=visual-studio)
 - [Github](https://github.com/)
@@ -19,121 +22,121 @@ IntroducciÛn al lenguaje C# y .NET Core por Diego Ponce de LeÛn para la EOI
 ### C#
 
 - [Value types](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/value-types)
-- [DeclaraciÛn y utilizaciÛn de variables](https://docs.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/types-and-variables)
-- Comandos de selecciÛn ([if, else if, else](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/if-else), [switch](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/switch))
+- [Declaraci√≥n y utilizaci√≥n de variables](https://docs.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/types-and-variables)
+- Comandos de selecci√≥n ([if, else if, else](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/if-else), [switch](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/switch))
 - [Operadores comunes](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/operators/)
 - [Operador ternario](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/operators/conditional-operator)
-- Comandos de iteraciÛn ([while](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/while), [do while](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/do), [for](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/for), [foreach](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/foreach-in))
+- Comandos de iteraci√≥n ([while](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/while), [do while](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/do), [for](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/for), [foreach](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/foreach-in))
 - Comandos de salto ([break](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/break), [continue](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/continue))
-- [DeclaraciÛn y utilizaciÛn de propiedades de clase](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/properties)
-- [MÈtodos de clase](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/methods)
-- [Par·metros de mÈtodo](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/passing-parameters)
+- [Declaraci√≥n y utilizaci√≥n de propiedades de clase](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/properties)
+- [M√©todos de clase](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/methods)
+- [Par√°metros de m√©todo](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/passing-parameters)
 - [Arrays](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/arrays/)
 - [Colecciones](https://msdn.microsoft.com/es-es/library/0ytkdh4s(v=vs.110).aspx)
 - [LINQ](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/linq/getting-started-with-linq) + [Lambda](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions)
 - [Clases y objetos](https://support.microsoft.com/es-es/help/307368/how-to-create-classes-and-objects-in-visual-c)
 - [Herencia](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/inheritance)
 - [Polimorfismo](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/polymorphism)
-- [EncapsulaciÛn](https://msdn.microsoft.com/es-es/library/a5adyhe9.aspx)
-- [Miembros est·ticos](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)
-- [ProgramaciÛn asÌncrona con async, await, Task](https://docs.microsoft.com/es-es/dotnet/csharp/async)
+- [Encapsulaci√≥n](https://msdn.microsoft.com/es-es/library/a5adyhe9.aspx)
+- [Miembros est√°ticos](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)
+- [Programaci√≥n as√≠ncrona con async, await, Task](https://docs.microsoft.com/es-es/dotnet/csharp/async)
 - [Lanzamiento y manejo de excepciones](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/exceptions/)
 - [Breve historia de C#](https://docs.microsoft.com/es-es/dotnet/csharp/whats-new/csharp-version-history)
 
 
 ### .NET Core
 
-- [IntroducciÛn a .NET Framework](https://msdn.microsoft.com/es-es/library/hh425099%28v=vs.110%29.aspx?f=255&MSPPError=-2147217396)
-- [IntroducciÛn a .NET Core](https://docs.microsoft.com/es-es/dotnet/core/index)
-- [Los lenguajes de programaciÛn disponibles en .NET Core](https://www.microsoft.com/net/learn/languages)
+- [Introducci√≥n a .NET Framework](https://msdn.microsoft.com/es-es/library/hh425099%28v=vs.110%29.aspx?f=255&MSPPError=-2147217396)
+- [Introducci√≥n a .NET Core](https://docs.microsoft.com/es-es/dotnet/core/index)
+- [Los lenguajes de programaci√≥n disponibles en .NET Core](https://www.microsoft.com/net/learn/languages)
 - [Diferencias entre .NET Framework y .NET Core](https://docs.microsoft.com/es-es/dotnet/standard/choosing-core-framework-server)
 - [NET Standard](https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/)
-- [InstalaciÛn entorno de trabajo para .NET Core (SDK)](https://www.microsoft.com/net/learn/get-started/windows)
-- [Crear proyectos de consola](https://docs.microsoft.com/es-es/dotnet/core/tutorials/using-with-xplat-cli), [librerÌa NET Standard](https://docs.microsoft.com/es-es/dotnet/core/tutorials/library-with-visual-studio) y [Web API](https://docs.microsoft.com/es-es/aspnet/core/tutorials/first-web-api) con .NET Core desde lÌnea de comandos (CLI) y desde Visual Studio
-- [InstalaciÛn, configuraciÛn y uso de Visual Studio Code para editar proyectos C#](https://docs.microsoft.com/es-es/dotnet/core/tutorials/with-visual-studio-code)
-- [InstalaciÛn, configuraciÛn y uso de Visual Studio Community para editar proyectos C#](https://docs.microsoft.com/es-es/dotnet/core/tutorials/with-visual-studio)
-- [Crear dependencias entre proyectos dentro de una misma soluciÛn](https://msdn.microsoft.com/es-es/library/f3st0d45.aspx)
-- [AÒadir paquetes nuget a un proyecto](https://docs.microsoft.com/es-es/nuget/quickstart/use-a-package)
-- [UtilizaciÛn de librerÌas de terceros a travÈs de nuget](https://docs.microsoft.com/es-es/nuget/quickstart/use-a-package)
-- [Depurar cÛdigo C# en Visual Studio Code](https://docs.microsoft.com/es-es/dotnet/core/tutorials/with-visual-studio-code)
-- [Depurar cÛdigo C# en Visual Studio Community](https://docs.microsoft.com/es-es/dotnet/core/tutorials/debugging-with-visual-studio?tabs=csharp)
-- [InteracciÛn de usuario (entrada y salida de datos) en un proyecto de Consola](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/console-teleprompter)
+- [Instalaci√≥n entorno de trabajo para .NET Core (SDK)](https://www.microsoft.com/net/learn/get-started/windows)
+- [Crear proyectos de consola](https://docs.microsoft.com/es-es/dotnet/core/tutorials/using-with-xplat-cli), [librer√≠a NET Standard](https://docs.microsoft.com/es-es/dotnet/core/tutorials/library-with-visual-studio) y [Web API](https://docs.microsoft.com/es-es/aspnet/core/tutorials/first-web-api) con .NET Core desde l√≠nea de comandos (CLI) y desde Visual Studio
+- [Instalaci√≥n, configuraci√≥n y uso de Visual Studio Code para editar proyectos C#](https://docs.microsoft.com/es-es/dotnet/core/tutorials/with-visual-studio-code)
+- [Instalaci√≥n, configuraci√≥n y uso de Visual Studio Community para editar proyectos C#](https://docs.microsoft.com/es-es/dotnet/core/tutorials/with-visual-studio)
+- [Crear dependencias entre proyectos dentro de una misma soluci√≥n](https://msdn.microsoft.com/es-es/library/f3st0d45.aspx)
+- [A√±adir paquetes nuget a un proyecto](https://docs.microsoft.com/es-es/nuget/quickstart/use-a-package)
+- [Utilizaci√≥n de librer√≠as de terceros a trav√©s de nuget](https://docs.microsoft.com/es-es/nuget/quickstart/use-a-package)
+- [Depurar c√≥digo C# en Visual Studio Code](https://docs.microsoft.com/es-es/dotnet/core/tutorials/with-visual-studio-code)
+- [Depurar c√≥digo C# en Visual Studio Community](https://docs.microsoft.com/es-es/dotnet/core/tutorials/debugging-with-visual-studio?tabs=csharp)
+- [Interacci√≥n de usuario (entrada y salida de datos) en un proyecto de Consola](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/console-teleprompter)
 
 ### Git
 
-- [Comandos b·sicos para flujo de trabajo con Git](http://rogerdudler.github.io/git-guide/index.es.html)
-- [Operaciones b·sicas de Git desde Visual Studio](https://blogs.msdn.microsoft.com/esmsdn/2016/03/04/utilizando-git-en-visual-studio/)
+- [Comandos b√°sicos para flujo de trabajo con Git](http://rogerdudler.github.io/git-guide/index.es.html)
+- [Operaciones b√°sicas de Git desde Visual Studio](https://blogs.msdn.microsoft.com/esmsdn/2016/03/04/utilizando-git-en-visual-studio/)
 - [Crear y trabajar con un repositorio Git en GitHub](https://desarrolloweb.com/articulos/crear-repositorio-git-codigo.html)
 
 ### REST y Web API
 
-- [IntroducciÛn a REST](https://dosideas.com/noticias/java/314-introduccion-a-los-servicios-web-restful)
-- [MÈtodos b·sicos REST (get, post, put, delete)](http://asiermarques.com/2013/conceptos-sobre-apis-rest/)
+- [Introducci√≥n a REST](https://dosideas.com/noticias/java/314-introduccion-a-los-servicios-web-restful)
+- [M√©todos b√°sicos REST (get, post, put, delete)](http://asiermarques.com/2013/conceptos-sobre-apis-rest/)
 - [Probar una API REST con Postman](https://www.getpostman.com/docs/)
 - [Consumir una API REST desde C# con `HttpClient`](https://docs.microsoft.com/es-es/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client)
 - [Crear una API REST con Asp.NET Core y Visual Studio](https://docs.microsoft.com/es-es/aspnet/core/tutorials/first-web-api)
-- [Usar respuestas de Web API](http://hamidmosalla.com/2017/03/29/asp-net-core-action-results-explained/) y sus [cÛdigos de error](https://apigee.com/about/blog/technology/restful-api-design-what-about-errors)
+- [Usar respuestas de Web API](http://hamidmosalla.com/2017/03/29/asp-net-core-action-results-explained/) y sus [c√≥digos de error](https://apigee.com/about/blog/technology/restful-api-design-what-about-errors)
 - [Crear un modelo de datos relacional](http://www.learnentityframeworkcore.com/relationships)
-- [Usar inyecciÛn de dependencias para el uso de servicios en controladores Web API](https://docs.microsoft.com/es-es/aspnet/core/fundamentals/dependency-injection)
-- [IntroducciÛn a ORM (Object Relational Mapper)](https://es.wikipedia.org/wiki/Mapeo_objeto-relacional)
-- [IntroducciÛn al ORM Entity Framework](https://docs.microsoft.com/en-us/ef/core/)
+- [Usar inyecci√≥n de dependencias para el uso de servicios en controladores Web API](https://docs.microsoft.com/es-es/aspnet/core/fundamentals/dependency-injection)
+- [Introducci√≥n a ORM (Object Relational Mapper)](https://es.wikipedia.org/wiki/Mapeo_objeto-relacional)
+- [Introducci√≥n al ORM Entity Framework](https://docs.microsoft.com/en-us/ef/core/)
 - [Usar base de datos en memoria](https://stormpath.com/blog/tutorial-entity-framework-core-in-memory-database-asp-net-core)
-- [Consultas a la base de datos de forma sÌncrona con Entity Framework y LINQ](https://docs.microsoft.com/en-us/ef/core/querying/basic)
-- [Consultas a la base de datos de forma asÌncrona con Entity Framework y LINQ](https://docs.microsoft.com/en-us/ef/core/querying/async)
+- [Consultas a la base de datos de forma s√≠ncrona con Entity Framework y LINQ](https://docs.microsoft.com/en-us/ef/core/querying/basic)
+- [Consultas a la base de datos de forma as√≠ncrona con Entity Framework y LINQ](https://docs.microsoft.com/en-us/ef/core/querying/async)
 
 
-# Otros enlaces de interÈs
+# Otros enlaces de inter√©s
 
 - [Migraciones del modelo de datos](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/migrations)
-- [GuÌa de programaciÛn C#](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/index)
-- [PequeÒo libro de Asp.NET Core (en inglÈs)](https://www.gitbook.com/book/nbarbettini/little-asp-net-core-book/details)
+- [Gu√≠a de programaci√≥n C#](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/index)
+- [Peque√±o libro de Asp.NET Core (en ingl√©s)](https://www.gitbook.com/book/nbarbettini/little-asp-net-core-book/details)
 - [Proveedores de base de datos para Entity Framework](https://docs.microsoft.com/en-us/ef/core/providers/)
 - [Arquitectura de aplicaciones con .NET](https://www.microsoft.com/net/learn/architecture)
 - [Desplegar aplicaciones .NET Core en Azure](https://docs.microsoft.com/es-es/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
-- [IntroducciÛn a ASP.NET Core MVC y Visual Studio](https://docs.microsoft.com/es-es/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
-- [AutenticaciÛn / autorizaciÛn en ASP.NET Core](https://docs.microsoft.com/es-es/aspnet/core/security/authentication/identity?tabs=visual-studio%2Caspnetcore2x)
+- [Introducci√≥n a ASP.NET Core MVC y Visual Studio](https://docs.microsoft.com/es-es/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
+- [Autenticaci√≥n / autorizaci√≥n en ASP.NET Core](https://docs.microsoft.com/es-es/aspnet/core/security/authentication/identity?tabs=visual-studio%2Caspnetcore2x)
 
 
-# Ejercicios y cÛdigo
+# Ejercicios y c√≥digo
 
-Todo el cÛdigo se encuentra en distintos proyectos pero dentro de una misma soluciÛn de Visual Studio.
-Para usar el cÛdigo solo hace falta clonar este repositorio:
+Todo el c√≥digo se encuentra en distintos proyectos pero dentro de una misma soluci√≥n de Visual Studio.
+Para usar el c√≥digo solo hace falta clonar este repositorio:
 
     git clone https://github.com/xleon/CursoLeonEoiDotNetCore.git
 
 y luego hacer doble click en `CursoLeonEoiDotNetCore.sln` (con Visual Studio instalado).
 
-Para lanzar proyectos podeÌs hacerlo de dos maneras:
+Para lanzar proyectos pode√≠s hacerlo de dos maneras:
 
-1. Click derecho en el proyecto > Establecer proyecto por defecto y luego darle al play (botÛn verde)
+1. Click derecho en el proyecto > Establecer proyecto por defecto y luego darle al play (bot√≥n verde)
 2. Click derech en el proyecto > Depurar > Crear nueva instancia
 
 ![Solution debug](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Assets/Solution.png)
 
 ## Fight Game
 
-Mini juego de peleas por turnos desarrollado durante las clases. Se trata de una aplicaciÛn de consola que descarga lista de personajes desde la API REST de StarWars. 
-Cada vez que se teclea la funciÛn "Luchar", se eligen dos contrincantes aleatoriamente. El daÒo que ocasionan o reciben tambiÈn es aleatorio. Todos van perdiedo poder y vidas. 
-Cuando se agotan sus vidas quedan fuera de juego. AsÌ sucesivamente hasta que queda un ˙nico superviviente o ganador.
-Tiene otra funciÛn "Estatus" con la cu·l podemos ver una tabla de texto de los jugadores y el detalle de cada uno.
+Mini juego de peleas por turnos desarrollado durante las clases. Se trata de una aplicaci√≥n de consola que descarga lista de personajes desde la API REST de StarWars. 
+Cada vez que se teclea la funci√≥n "Luchar", se eligen dos contrincantes aleatoriamente. El da√±o que ocasionan o reciben tambi√©n es aleatorio. Todos van perdiedo poder y vidas. 
+Cuando se agotan sus vidas quedan fuera de juego. As√≠ sucesivamente hasta que queda un √∫nico superviviente o ganador.
+Tiene otra funci√≥n "Estatus" con la cu√°l podemos ver una tabla de texto de los jugadores y el detalle de cada uno.
 
-La lÛgica del juego es muy simplista y esta aplicaciÛn ha servido b·sicamente para tocar varios puntos importantes del lenguaje C#, al mismo tiempo que hemos aprendido a manejar entrada y salida de datos en aplicaciones de consola.
+La l√≥gica del juego es muy simplista y esta aplicaci√≥n ha servido b√°sicamente para tocar varios puntos importantes del lenguaje C#, al mismo tiempo que hemos aprendido a manejar entrada y salida de datos en aplicaciones de consola.
 
 ![Fight Game 1](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Assets/FightGame1.png)
 ![Fight Game 2](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Assets/FightGame2.png)
 
 ## TO DO web API (Lista de tareas)
 
-Se trata de una API REST muy simple, desarrollada en Visual Studio, con dos modelos de datos (lista de tareas y tarea) que est·n relacionados entre sÌ. 
-Hemos hecho un recorrido por los mÈtodos REST m·s relevantes para entender el concepto CRUD (Create Retrieve Update Delete). Para ello hemos utilizado un servicio que se utiliza en el controlador mediante inyecciÛn de dependencias.
-En dichos mÈtodos se controlan errores y que los par·metros recibidos en la llamada sean correctos. TambiÈn se consulta una base de datos con LINQ 
-y finalmente se devuelven las respuestas correspondientes y tÌpicas de REST, con su cÛdigo de estado y su cuerpo en formato json. Toda la API web ha sido probada con Postman.
+Se trata de una API REST muy simple, desarrollada en Visual Studio, con dos modelos de datos (lista de tareas y tarea) que est√°n relacionados entre s√≠. 
+Hemos hecho un recorrido por los m√©todos REST m√°s relevantes para entender el concepto CRUD (Create Retrieve Update Delete). Para ello hemos utilizado un servicio que se utiliza en el controlador mediante inyecci√≥n de dependencias.
+En dichos m√©todos se controlan errores y que los par√°metros recibidos en la llamada sean correctos. Tambi√©n se consulta una base de datos con LINQ 
+y finalmente se devuelven las respuestas correspondientes y t√≠picas de REST, con su c√≥digo de estado y su cuerpo en formato json. Toda la API web ha sido probada con Postman.
 
 ![Postman 1](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Assets/Postman1.png)
 ![Postman 2](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Assets/Postman2.png)
 
 Hay un archivo en el proyecto que se llama [Lista de tareas.postman_collection.json](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Lista%20de%20tareas.postman_collection.json) 
-que podeÌs importar directamente desde Postman d·ndole al botÛn "Import" en la parte superior. Una vez hecho eso, todas las llamadas a la API estar·n disponibles para probar.
+que pode√≠s importar directamente desde Postman d√°ndole al bot√≥n "Import" en la parte superior. Una vez hecho eso, todas las llamadas a la API estar√°n disponibles para probar.
 
 
 
