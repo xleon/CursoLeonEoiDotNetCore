@@ -3,6 +3,8 @@ Introducción al lenguaje C# y .NET Core por Diego Ponce de León para la EOI
 
 ![logos](https://raw.githubusercontent.com/xleon/CursoLeonEoiDotNetCore/master/Assets/logos.png)
 
+> Archivos y documentación del curso en https://github.com/xleon/CursoLeonEoiDotNetCore
+
 
 ## Herramientas utilizadas
 
