@@ -89,6 +89,7 @@ Introducción al lenguaje C# y .NET Core por Diego Ponce de León para la EOI
 
 # Otros enlaces de interés
 
+- [Microsoft Virtual Academy: Curso ASP.NET Core (12 horas, en inglés)](https://mva.microsoft.com/learning-path/aspnet-core-6)
 - [Migraciones del modelo de datos](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/migrations)
 - [Guía de programación C#](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/index)
 - [Pequeño libro de Asp.NET Core (en inglés)](https://www.gitbook.com/book/nbarbettini/little-asp-net-core-book/details)
